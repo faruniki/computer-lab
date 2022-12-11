@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Oswald:wght@300;400;500&family=Playfair+Display:wght@400;500&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+body {
+    margin: 0;
+}
+
+.navbar {
+    height: 50px;
+    background-color: #363062;
+    padding-top: 25px ;
+    display: cover;
+}
+
+.navbar p{
+    display: inline;
+
+}
+
+.judul-navbar {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-right: 900px;
+    padding-right: 50px;
+    color: #FFFFFF;
+    display: flex;
+}
+
+.delete {
+    margin: 0px 5px 0px 5px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FFFFFF;
+    padding: 8px 16px 8px 16px;
+    border-radius: 3px;
+    border-left: 2px solid #C65959;
+}
+
+.linkdelete {
+    text-decoration: none;
+    font-weight: 500;
+    color: #000000;
+}
+
+.linkdelete:hover {
+    background-color: #FFFFFF;
+    color: #C65959;
+    font-weight: 500;
+}
+
+.addnew {
+    margin: 0px 5px 0px 5px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FFFFFF;
+    padding: 8px 10px 8px 10px;
+    border-radius: 3px;
+    border-left: 2px solid #4DA741;
+}
+
+.linkadd {
+    text-decoration: none;
+    font-weight: 500;
+    color: #000000;
+}
+
+.linkadd:hover {
+    color: #4DA741;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.table {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin-bottom: 50px;
+    /* text-align: center; */
+    margin-top: -25px;
+    /* margin: 50px 230px 50px 230px; */
+}
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); */
+}
+
+.styled-table thead tr {
+    background-color: #4D4C7D;
+    color: #ffffff;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 100px;
+    text-align: center;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #4D4C7D;
+}
+
+tbody th p {
+    font-size: 12px;
+    font-weight: 600;
+    background-color: #4DA741;
+    color: #FFFFFF;
+    border-radius: 3px;
+    height: 16px;   
+    width: 50px;
+    margin: 5px 0px 5px 0px; 
+    padding: 5px 1px 5px 0px;
+    border-left: 2px solid #4DA741;
+}
+
+tbody th p:hover {
+    color: #4DA741;
+    background-color: #FFFFFF;
+    border-left: 2px solid #4DA741;
+}
+
+tbody tr th .row{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.row .editya {
+    background-color: #d6c124;
+    border-left: 2px solid #d6c124;
+}
+
+.row .editya:hover {
+    background-color: #FFFFFF;
+    border-left: 2px solid #d6c124;
+    /* border-right: 2px solid #ffffff; */
+    color: #d6c124;
+    padding: 5px -2px 5px 0px;
+}
+
+.linkeditya {
+    text-decoration: none;
+    color: white;
+}
+
+.linkeditya:hover {
+    color: #d6c124;
+}

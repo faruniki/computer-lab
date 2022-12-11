@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Oswald:wght@300;400;500&family=Playfair+Display:wght@400;500&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+body {
+    margin: 0;
+}
+
+.navbar {
+    height: 50px;
+    background-color: #363062;
+    padding-top: 25px ;
+    display: cover;
+}
+
+.navbar p{
+    display: inline;
+
+}
+
+.judul-navbar {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-right: 1028px;
+    padding-right: 50px;
+    color: #FFFFFF;
+}
+
+.back {
+    margin: 0px 5px 0px 5px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FFFFFF;
+    padding: 8px 25px 8px 25px;
+    border-radius: 3px;
+    border-left: 2px solid #4DA741;
+}
+
+.linkback {
+    text-decoration: none;
+    font-weight: 500;
+    color: #000000;
+}
+
+.linkback:hover {
+    color: #4DA741;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.wikcom {
+    margin-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.form {
+    width: 500px;
+    height: 300px;
+    margin-top: 20px;
+}
+
+.form input {
+    width: 450px;
+    height: 52px;
+    margin: 10px 0px 10px 0px;
+    padding-left: 20px;
+    border-radius: 5px;
+    border: 0px;
+    border-left: 2px solid #495579;
+    border-color: #495579;
+    background-color: #d5d5d5;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.submitcoi {
+    margin-top: 30px;
+    width: 478px;
+    height: 50px;
+    border-radius: 100px;
+    border: 0px;
+    background-color: #363062;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.submitcoi:hover {
+    background-color: #495579;
+}

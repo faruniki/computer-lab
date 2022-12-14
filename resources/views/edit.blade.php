@@ -2,7 +2,7 @@
 
 @section ('content')
 
-<link rel="stylesheet" href="assets/css/edit.css">
+<link rel="stylesheet" href="{{asset('assets/css/edit.css')}}">
 
 <div>
     <center>

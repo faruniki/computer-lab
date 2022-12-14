@@ -2,13 +2,12 @@
 
 @section('content')
 
-<link rel="stylesheet" href="assets/css/index.css">
+<link rel="stylesheet" href="{{asset('assets/css/index.css')}}">
 
     <div>
         <center>
             <div class="navbar">
                 <p class="judul-navbar">Lab Komputer</p>
-                <p class="delete"><a href="edit" class="linkdelete">Edit Access</a></p>
                 <p class="addnew"><a href="add" class="linkadd">Add New</a> </p>
             </div>
         </center>

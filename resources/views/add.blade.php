@@ -16,7 +16,11 @@
             <p class="wikcom">Complete Your Information</p>
             <form action="/store" class="form" method="post">
                 @csrf
-                <input type="text" name="nama" placeholder="Full Name">
+                    <select name="nama" class="condition-form" placeholder="Conditions">
+                        <option value="-1">Conditions</option>
+                        <option value="Baik">Baik</option>
+                        <option value="Rusak">Rusak</option>
+                    </select>
                 <input type="text" name="nis" placeholder="NIS Number">
                 <input type="text" name="ruang" placeholder="Ruang">
                 <input type="text" name="computer" placeholder="Computer">

@@ -16,7 +16,7 @@
         <table class="styled-table">
             <thead>
                 <tr>
-                    <th>Nama</th>
+                    <th>Kondisi</th>
                     <th>NIS</th>
                     <th>Ruang</th>
                     <th>Computer</th>
